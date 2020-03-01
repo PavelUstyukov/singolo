@@ -1,0 +1,116 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: 'Lato Regular', 'sans-serif';
+ max-width: 1020px;
+ margin: auto;
+ font-weight: 400;
+}
+
+.portfolio {
+ height: 870px;
+ background: #2d303a;
+ border-bottom: 6px solid #323746;
+}
+
+.title {
+ padding: 62px 0 21px 40px;
+ color: #666d89;
+ font-family: 'Lato Black';
+ font-size: 30px;
+}
+
+.subtitle {
+ padding-left: 40px;
+ color: #767e9e;
+ font-size: 18px;
+ font-weight: 300;
+ letter-spacing: -0.1px;
+}
+
+.categories_block {
+ margin: 15px 0 20px 40px;
+}
+
+.category {
+ color: #666d89;
+ font-size: 12px;
+ cursor: pointer;
+ font-weight: 400;
+ padding: 2px 7px 2px 7px;
+ border: 1px solid #666d89;
+ border-radius: 5px;
+ margin-right: 5px;
+ height: 22px;
+}
+
+.works {
+ margin: 0 0px 0 40px;
+}
+
+.works_card {
+ margin: 0 17px 17px 0;
+ width: 220px;
+ height: 187px;
+}
+
+.about-us {
+ background-color: #f2f2f2;
+ border-bottom: 6px solid #ffffff;
+ height: 728px;
+}
+
+.title_about {
+ padding: 58px 0 21px 40px;
+ color: #666d89;
+ font-family: 'Lato Black';
+ font-size: 30px;
+}
+
+.subtitle_about {
+ padding-left: 40px;
+ color: #767e9e;
+ font-size: 18px;
+ font-weight: 300;
+ letter-spacing: -0.1px;
+ line-height: 30px;
+}
+
+.characters {
+ display: flex;
+ width: 300px;
+ height: 460px;
+ margin: 44px 0 0 40px;
+}
+
+.character_name {
+ margin-top: 13px;
+ font-size: 18px;
+ letter-spacing: -0.1px;
+ font-family: 'Lato Black';
+ color: #666d89;
+}
+
+.character_description {
+ font-size: 12px;
+ letter-spacing: 0px;
+ color: #767e9e;
+ line-height: 1.7;
+ letter-spacing: -0.1px;
+}
+
+.character_img {
+ margin-right: 20px;
+}
+
+.social {
+ margin-top: 28px;
+}
+
+.social_ancor {
+ margin-right: 4px;
+}
