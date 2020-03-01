@@ -33,7 +33,7 @@ body {
 }
 
 .categories_block {
- margin: 15px 0 20px 40px;
+ margin: 14px 0 20px 40px;
 }
 
 .category {
@@ -48,8 +48,21 @@ body {
  height: 22px;
 }
 
+.category:hover {
+ border: 1px solid #c5c5c5;
+ color: #c5c5c5;
+
+}
+
+.category_selected {
+ color: #dedede;
+ border: 1px solid #c5c5c5;
+}
+
 .works {
  margin: 0 0px 0 40px;
+ max-height: 601px;
+ overflow-y: hidden;
 }
 
 .works_card {
